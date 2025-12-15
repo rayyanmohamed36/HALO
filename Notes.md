@@ -17,8 +17,4 @@ Price is also a factor which affects the methods which are used, a major method 
 Reasons for BLE
 ---
 
-The main reason for choosing BLE as the first method that I researched was due to my previous research of BLE positioning in smart walking cane applications. I developed a method of estimating distance using triangulation and RSSI calculation using esp32s as beacons and an esp32 as a receiver. As I developed this model during an internship I never got around to testing the model and optimizing its accuracy.
-
-
-
-
+The main reason for choosing BLE as the first method that I researched was due to my previous research of BLE positioning in smart walking cane applications. I developed a method of estimating distance using triangulation and RSSI calculation using esp32s as beacons and an esp32 as a receiver. As I developed this model during an internship I never got around to testing the model and optimizing its accuracy. However the code which I developed, admittedly largely with the help of AI, is still available at the github repository https://github.com/rayyanmohamed36/Smart-Stick. Although I may not use the code, it was still a learning experience which not only inflenced my decision to take up this project but also how I undertook the research aspect.
