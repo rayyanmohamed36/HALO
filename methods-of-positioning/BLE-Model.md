@@ -21,6 +21,9 @@ Algorithm (single-anchor / room-level)
 Algorithm (multi-anchor / improved accuracy)
 - Deploy 2+ ESP32 anchors per area; each reports smoothed RSSI. A server applies voting or simple proximity (highest RSSI) to decide which room the wearable is in. For better accuracy, use fingerprinting or calibrate path-loss and apply multilateration.
 
+Triangulation example:
+https://www.beaconzone.co.uk/blog/wp-content/uploads/2021/09/trilateration-1.webp
+
 Signal processing & calibration
 - Smooth RSSI: EMA with alpha ~0.2 or a small Kalman filter.
 - Calibrate per-site: measure RSSI at representative positions to pick thresholds; building materials and interference change numbers.
